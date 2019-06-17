@@ -31,6 +31,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# gem 'shopify_app', '~> 7.0.0'
+gem 'shopify_app'
+gem 'activeresource', github: 'rails/activeresource'
+gem 'shopify_api'
+
+
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
