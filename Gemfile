@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.3'
+ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use jdbcpostgresql as the database for Active Record
-gem 'activerecord-jdbcpostgresql-adapter'
+# gem 'activerecord-jdbcpostgresql-adapter'
+gem 'activerecord-postgresql-adapter', '~> 0.0.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -33,8 +34,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 # gem 'shopify_app', '~> 7.0.0'
 gem 'shopify_app'
-gem 'activeresource', github: 'rails/activeresource'
+# gem 'activeresource', github: 'rails/activeresource'
 gem 'shopify_api'
+gem 'dotenv-rails'
+
+# gem "activeresource", "~> 5.1"
+# gem 'activeresource', git: 'git://github.com/rails/activeresource'
 
 
 
