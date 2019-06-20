@@ -7,4 +7,5 @@ ShopifyApp.configure do |config|
   config.scope = "read_orders, read_products"
   config.embedded_app = true
   config.after_authenticate_job = false
+  config.api_version = '2019-04'
 end
